@@ -5,7 +5,7 @@ const PORT = process.env.PORT || 3000;
 
 // INDEX PAGE
 app.get('/', (req, res) => {
-    res.send({ hi: 'there' });
+    res.send({ bye: 'buddy' });
 })
 
 // START THE APP
